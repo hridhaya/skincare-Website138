@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skin@Care-Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <fixed-header></fixed-header>
+    <div class="img-class">
+      <h1>CONTACT US</h1>
+    </div>
+    <div class="contact-Us">
+      <h2>Contact Us</h2>
+      <form class="contact-us-form" method="POST">
+        <input
+          type="text"
+          id="name"
+          placeholder="your name"
+          required="required"
+        />
+        <br /><br />
+        <input
+          type="text"
+          id="email"
+          placeholder="email id"
+          required="required"
+        /><br />
+        <br />
+        <textarea
+          id="review"
+          rows="1"
+          cols="20"
+          placeholder="type message"
+          required="required"
+        >
+        </textarea>
+        <div id="btn">
+          <button type="button" class="submitbtn" onclick="">SEND</button>
+        </div>
+      </form>
+    </div>
+    <fixed-footer></fixed-footer>
+
+    <script src="./manageHeaderFooter.js"></script>
+  </body>
+</html>
