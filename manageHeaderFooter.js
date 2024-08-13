@@ -1,10 +1,13 @@
+// function call -- fixed header
 class FixedHeader extends HTMLElement {
   connectedCallback() {
+    // content of the header
     this.innerHTML = `
         <header class="header-class">
                 <div class="menu-bar">
                      <a href="index.html" class="logo">Skin@Care</a>
                     <ul id="navLinks">    
+                    // nav bar -- close --- responsive
                     <b onclick="hideMenu()">x</b>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="aboutSkinType.html">Skin Type</a>
@@ -32,14 +35,17 @@ class FixedHeader extends HTMLElement {
                         <li><a href="contactUs.html">Contact Us</a></li>
 
                     </ul>
-                    <b onclick="showMenu()">=</b>
+                    // nav bar -- show --- responsive
+                    <b onclick="showMenu()">=</b> 
                 </div>
         </header>
         `;
   }
 }
+// function call -- fixed footer
 class FixedFooter extends HTMLElement {
   connectedCallback() {
+    // content of the footer
     this.innerHTML = `
         <footer class="footer-class" id="contact">
             <div class="footer-div">
