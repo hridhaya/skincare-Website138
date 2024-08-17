@@ -7,7 +7,7 @@ class FixedHeader extends HTMLElement {
                 <div class="menu-bar">
                      <a href="index.html" class="logo">Skin@Care</a>
                     <ul id="navLinks">    
-                    // nav bar -- close --- responsive
+                    <!-- nav bar -- close --- responsive-->
                     <b onclick="hideMenu()">x</b>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="aboutSkinType.html">Skin Type</a>
@@ -35,7 +35,7 @@ class FixedHeader extends HTMLElement {
                         <li><a href="contactUs.html">Contact Us</a></li>
 
                     </ul>
-                    // nav bar -- show --- responsive
+                    <!-- nav bar -- show --- responsive -->
                     <b onclick="showMenu()">=</b> 
                 </div>
         </header>
